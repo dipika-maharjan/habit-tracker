@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Habit Tracker</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_habits">Habits</string>
+    <string name="menu_progress">Progress</string>
+    <string name="menu_leaderboard">Leaderboard</string>
+    <string name="menu_account">Account</string>
+    <string name="menu_logout">Logout</string>
+    <string name="streak_format">Streak: %d days</string>
+    <string name="total_points">Total Points: %d</string>
+    <string name="enter_email_address">Please enter your email address</string>
+    <string name="password_reset_sent">Password reset email sent</string>
+    <string name="greeting">Hello, %s!</string>
+    <string name="user">User</string>
+    <string name="fill_all_fields">fill_all_fields!</string>
+    <string-array name="inspirational_quotes">
+        <item>The secret of getting ahead is getting started.</item>
+        <item>The only way to do great work is to love what you do.</item>
+        <item>Believe you can and you\'re halfway there.</item>
+        <item>Success is not final, failure is not fatal: it is the courage to continue that counts.</item>
+        <item>The future depends on what you do today.</item>
+    </string-array>
+</resources>
+

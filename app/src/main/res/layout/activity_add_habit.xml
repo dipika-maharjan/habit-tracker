@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="habitViewModel"
+            type="com.example.habittracker.viewmodel.HabitViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select habit(s):"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Habit Checkboxes -->
+        <CheckBox
+            android:id="@+id/waterCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Water"
+            android:layout_marginBottom="8dp" />
+
+        <CheckBox
+            android:id="@+id/sleepCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sleep"
+            android:layout_marginBottom="8dp" />
+
+        <CheckBox
+            android:id="@+id/meditateCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meditate"
+            android:layout_marginBottom="8dp" />
+
+        <CheckBox
+            android:id="@+id/readCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Read a Book"
+            android:layout_marginBottom="8dp" />
+
+        <CheckBox
+            android:id="@+id/exerciseCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exercise"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Describe your habit:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+
+        <EditText
+            android:id="@+id/habitDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter habit description"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/habitNametxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter additional habit description"
+            android:inputType="textMultiLine"
+            android:lines="1"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/selectDateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Date" />
+
+        <TextView
+            android:id="@+id/selectedDateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date not selected"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/selectTimeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Time" />
+
+        <TextView
+            android:id="@+id/selectedTimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time not selected"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/addHabitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Habit(s)" />
+
+    </LinearLayout>
+</layout>

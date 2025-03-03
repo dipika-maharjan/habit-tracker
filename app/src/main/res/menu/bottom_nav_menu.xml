@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_habits"
+        android:icon="@drawable/refresh"
+        android:title="Habits" />
+    <item
+        android:id="@+id/nav_progress"
+        android:icon="@drawable/load"
+        android:title="Progress" />
+    <item
+        android:id="@+id/nav_leaderboard"
+        android:icon="@drawable/podium"
+        android:title="Leaderboard" />
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/logout"
+        android:title="Logout" />
+</menu>
+
